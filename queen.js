@@ -21,18 +21,19 @@ function play(values) {
         if (turn % 2 != 0){
             alert ("You pick card!");
             card = values.pop();
-            alert(card);
+            
         }
         else {
             alert ("I pick card!");
       }
-      alert(card);
+      
       if (card == "Q") {
         if (turn % 2 != 0) {
           alert("You win!");
+          return;
         } else {
           alert("Ops...")
-        }
+          return;}
       }
     }
 }
