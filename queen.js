@@ -30,6 +30,8 @@ function play(values) {
       if (card == "Q") {
         if (turn % 2 != 0) {
           alert("You win!");
+        } else {
+          alert("Ops...")
         }
       }
     }
